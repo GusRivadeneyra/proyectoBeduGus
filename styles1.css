@@ -1,0 +1,129 @@
+.cuerpo {
+  background-color: #200C08;
+}
+
+h1 {
+  text-align: center;
+  font-size: 300%;
+  font-family: 'Alfa Slab One', cursive;
+  margin-top: 20px;
+  color: #EA3A12;
+  margin-top: 50;
+}
+
+.nav-link {
+  display: block;
+  padding: .5rem 1rem;
+  font-family: 'Alfa Slab One', cursive;
+  color: #EA3A12;
+  margin-top: 30;
+}
+
+.col-form-label {
+  padding-top: calc(.375rem + 1px);
+  padding-bottom: calc(.375rem + 1px);
+  margin-bottom: 0;
+  font-size: inherit;
+  line-height: 1.5;
+  color: #EA3A12;
+}
+
+.btn-danger {
+  margin-top: 8px;
+  background-color: #EA3A12;
+  font-family: 'Alfa Slab One', cursive;
+  display: flex;
+  align-items: center;
+}
+
+h6 {
+  text-align: center;
+  padding: 20px;
+  color: #ffff;
+  font-family: 'Noto Serif JP', serif;
+}
+
+h4 {
+  color: #ffff;
+  text-align: center;
+  font-family: 'Noto Serif JP', serif;
+}
+
+.titulo {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+label {
+  display: inline-block;
+  margin-bottom: .5rem;
+  color: white;
+  font-family: 'Noto Serif JP', serif;
+}
+
+.boton11 {
+  border-radius: 5px;
+  margin: 40px;
+  border-radius: 5px;
+  background-color: white;
+  border: black;
+  padding: revert;
+  color: black;
+  font-size: initial;
+  align-items: center;
+}
+
+.boton8 {
+  align-items: center;
+}
+
+.carousel-inner {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+p {
+  text-align: center;
+  margin: 5px;
+  color: white;
+  font-family: 'Alfa Slab One', cursive;
+}
+
+.center {
+  margin-top: 20px;
+}
+
+.promo {
+display: flex;
+justify-content: center;
+margin-top: 30px;
+}
+
+@media (max-width: 425px) {
+  
+  .nav-link {
+    display: block;
+    align-items: center;
+    padding: .5rem 1rem;
+    font-family: 'Alfa Slab One', cursive;
+    color: #EA3A12;
+    margin-top: 30;
+  }
+
+  h1{ 
+      text-align: center;
+      font-size: 150%;
+      font-family: 'Alfa Slab One', cursive;
+      margin-top: 20px;
+      color: #EA3A12;
+      margin-top: 50;
+    }
+
+  .promo {
+    display: flex;
+    align-items: center;
+  }
+}
